@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		782F6924200A3F0500F2509F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F6923200A3F0500F2509F /* AppDelegate.swift */; };
-		782F6926200A3F0500F2509F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F6925200A3F0500F2509F /* ViewController.swift */; };
 		782F6929200A3F0500F2509F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782F6927200A3F0500F2509F /* Main.storyboard */; };
 		782F692B200A3F0500F2509F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782F692A200A3F0500F2509F /* Assets.xcassets */; };
 		782F692E200A3F0500F2509F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782F692C200A3F0500F2509F /* LaunchScreen.storyboard */; };
 		782F6939200A3F0500F2509F /* ApepsKPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F6938200A3F0500F2509F /* ApepsKPITests.swift */; };
 		782F6944200A3F0500F2509F /* ApepsKPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F6943200A3F0500F2509F /* ApepsKPIUITests.swift */; };
+		782F6956200A7C0900F2509F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F6955200A7C0900F2509F /* Constants.swift */; };
+		782F6959200A7C4700F2509F /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F6958200A7C4600F2509F /* StringExtension.swift */; };
+		782F6962200A7D3000F2509F /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F6961200A7D3000F2509F /* RootRouter.swift */; };
+		782F6964200A7D4700F2509F /* RootContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F6963200A7D4700F2509F /* RootContract.swift */; };
+		782F696C200A8E8700F2509F /* AuthorizationContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F696B200A8E8700F2509F /* AuthorizationContract.swift */; };
+		782F696E200A8FA900F2509F /* UserRoles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F696D200A8FA900F2509F /* UserRoles.swift */; };
+		782F6970200A904600F2509F /* UserCredentialsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F696F200A904600F2509F /* UserCredentialsEntity.swift */; };
+		782F6972200A90D700F2509F /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F6971200A90D700F2509F /* UserEntity.swift */; };
+		782F6974200A91CF00F2509F /* AuthorizationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F6973200A91CF00F2509F /* AuthorizationInteractor.swift */; };
+		782F6976200A925E00F2509F /* AuthorizationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F6975200A925E00F2509F /* AuthorizationPresenter.swift */; };
+		782F6978200A933C00F2509F /* AuthorizationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F6977200A933C00F2509F /* AuthorizationRouter.swift */; };
+		782F697A200A937400F2509F /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F6979200A937400F2509F /* AuthorizationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +47,6 @@
 /* Begin PBXFileReference section */
 		782F6920200A3F0500F2509F /* ApepsKPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApepsKPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		782F6923200A3F0500F2509F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		782F6925200A3F0500F2509F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		782F6928200A3F0500F2509F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		782F692A200A3F0500F2509F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		782F692D200A3F0500F2509F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,18 @@
 		782F693F200A3F0500F2509F /* ApepsKPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApepsKPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		782F6943200A3F0500F2509F /* ApepsKPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApepsKPIUITests.swift; sourceTree = "<group>"; };
 		782F6945200A3F0500F2509F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782F6955200A7C0900F2509F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		782F6958200A7C4600F2509F /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		782F6961200A7D3000F2509F /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		782F6963200A7D4700F2509F /* RootContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootContract.swift; sourceTree = "<group>"; };
+		782F696B200A8E8700F2509F /* AuthorizationContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationContract.swift; sourceTree = "<group>"; };
+		782F696D200A8FA900F2509F /* UserRoles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRoles.swift; sourceTree = "<group>"; };
+		782F696F200A904600F2509F /* UserCredentialsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCredentialsEntity.swift; sourceTree = "<group>"; };
+		782F6971200A90D700F2509F /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		782F6973200A91CF00F2509F /* AuthorizationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationInteractor.swift; sourceTree = "<group>"; };
+		782F6975200A925E00F2509F /* AuthorizationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationPresenter.swift; sourceTree = "<group>"; };
+		782F6977200A933C00F2509F /* AuthorizationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationRouter.swift; sourceTree = "<group>"; };
+		782F6979200A937400F2509F /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +119,14 @@
 		782F6922200A3F0500F2509F /* ApepsKPI */ = {
 			isa = PBXGroup;
 			children = (
-				782F6923200A3F0500F2509F /* AppDelegate.swift */,
-				782F6925200A3F0500F2509F /* ViewController.swift */,
-				782F6927200A3F0500F2509F /* Main.storyboard */,
-				782F692A200A3F0500F2509F /* Assets.xcassets */,
-				782F692C200A3F0500F2509F /* LaunchScreen.storyboard */,
+				782F6952200A7BA300F2509F /* Application */,
+				782F695D200A7C8B00F2509F /* Protocols */,
+				782F6957200A7C2900F2509F /* Extensions */,
+				782F6954200A7BE200F2509F /* Enums */,
+				782F6953200A7BB700F2509F /* Resources */,
+				782F6951200A7B9200F2509F /* Models */,
+				782F695B200A7C7900F2509F /* Modules */,
+				782F695C200A7C8500F2509F /* Network */,
 				782F692F200A3F0500F2509F /* Info.plist */,
 			);
 			path = ApepsKPI;
@@ -123,6 +148,150 @@
 				782F6945200A3F0500F2509F /* Info.plist */,
 			);
 			path = ApepsKPIUITests;
+			sourceTree = "<group>";
+		};
+		782F6951200A7B9200F2509F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				782F696F200A904600F2509F /* UserCredentialsEntity.swift */,
+				782F6971200A90D700F2509F /* UserEntity.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		782F6952200A7BA300F2509F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				782F6923200A3F0500F2509F /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		782F6953200A7BB700F2509F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				782F692C200A3F0500F2509F /* LaunchScreen.storyboard */,
+				782F6927200A3F0500F2509F /* Main.storyboard */,
+				782F692A200A3F0500F2509F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		782F6954200A7BE200F2509F /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				782F6955200A7C0900F2509F /* Constants.swift */,
+				782F696D200A8FA900F2509F /* UserRoles.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		782F6957200A7C2900F2509F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				782F6958200A7C4600F2509F /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		782F695B200A7C7900F2509F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				782F6965200A8DA500F2509F /* Authorization */,
+				782F695E200A7CD200F2509F /* Root */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		782F695C200A7C8500F2509F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		782F695D200A7C8B00F2509F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		782F695E200A7CD200F2509F /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				782F6960200A7D1C00F2509F /* Router */,
+				782F695F200A7D0E00F2509F /* Contract */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		782F695F200A7D0E00F2509F /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				782F6963200A7D4700F2509F /* RootContract.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		782F6960200A7D1C00F2509F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				782F6961200A7D3000F2509F /* RootRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		782F6965200A8DA500F2509F /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				782F696A200A8E3300F2509F /* View */,
+				782F6969200A8E2D00F2509F /* Router */,
+				782F6968200A8E2300F2509F /* Presenter */,
+				782F6967200A8E1A00F2509F /* Interactor */,
+				782F6966200A8E0D00F2509F /* Contract */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		782F6966200A8E0D00F2509F /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				782F696B200A8E8700F2509F /* AuthorizationContract.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		782F6967200A8E1A00F2509F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				782F6973200A91CF00F2509F /* AuthorizationInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		782F6968200A8E2300F2509F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				782F6975200A925E00F2509F /* AuthorizationPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		782F6969200A8E2D00F2509F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				782F6977200A933C00F2509F /* AuthorizationRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		782F696A200A8E3300F2509F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				782F6979200A937400F2509F /* AuthorizationViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +428,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				782F6926200A3F0500F2509F /* ViewController.swift in Sources */,
+				782F697A200A937400F2509F /* AuthorizationViewController.swift in Sources */,
+				782F6976200A925E00F2509F /* AuthorizationPresenter.swift in Sources */,
+				782F6959200A7C4700F2509F /* StringExtension.swift in Sources */,
+				782F6964200A7D4700F2509F /* RootContract.swift in Sources */,
+				782F6978200A933C00F2509F /* AuthorizationRouter.swift in Sources */,
+				782F6962200A7D3000F2509F /* RootRouter.swift in Sources */,
+				782F6972200A90D700F2509F /* UserEntity.swift in Sources */,
+				782F6970200A904600F2509F /* UserCredentialsEntity.swift in Sources */,
+				782F6974200A91CF00F2509F /* AuthorizationInteractor.swift in Sources */,
+				782F696C200A8E8700F2509F /* AuthorizationContract.swift in Sources */,
 				782F6924200A3F0500F2509F /* AppDelegate.swift in Sources */,
+				782F696E200A8FA900F2509F /* UserRoles.swift in Sources */,
+				782F6956200A7C0900F2509F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
