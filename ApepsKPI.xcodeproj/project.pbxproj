@@ -25,6 +25,19 @@
 		782F6976200A925E00F2509F /* AuthorizationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F6975200A925E00F2509F /* AuthorizationPresenter.swift */; };
 		782F6978200A933C00F2509F /* AuthorizationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F6977200A933C00F2509F /* AuthorizationRouter.swift */; };
 		782F697A200A937400F2509F /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F6979200A937400F2509F /* AuthorizationViewController.swift */; };
+		782F697C200AA20800F2509F /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F697B200AA20800F2509F /* APIService.swift */; };
+		782F697D200AA24700F2509F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782F6983200AA24700F2509F /* Alamofire.framework */; };
+		782F697E200AA24700F2509F /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782F6984200AA24700F2509F /* Moya.framework */; };
+		782F6980200AA24700F2509F /* RxAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782F6986200AA24700F2509F /* RxAlamofire.framework */; };
+		782F6981200AA24700F2509F /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782F6987200AA24700F2509F /* RxCocoa.framework */; };
+		782F6982200AA24700F2509F /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782F6988200AA24700F2509F /* RxSwift.framework */; };
+		782F6989200AA30600F2509F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782F698A200AA30600F2509F /* SwiftyJSON.framework */; };
+		782F698D200AA53C00F2509F /* APEPSKyivUaRESTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F698C200AA53C00F2509F /* APEPSKyivUaRESTService.swift */; };
+		782F698E200AB38000F2509F /* Moya_ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782F698F200AB38000F2509F /* Moya_ObjectMapper.framework */; };
+		782F6992200AB65C00F2509F /* APEPSKyivUaRESTApiImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F6991200AB65C00F2509F /* APEPSKyivUaRESTApiImpl.swift */; };
+		782F6994200ABAE000F2509F /* RestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F6993200ABAE000F2509F /* RestApi.swift */; };
+		83A5F6F7632B328B7BADFBFE /* Pods_ApepsKPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3885FFAB5BEE2AE9ABFE7C3E /* Pods_ApepsKPI.framework */; };
+		D49A0ED678B9D34EE59FDDA1 /* Pods_ApepsKPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C5F670771EFBD6B9D4E71B /* Pods_ApepsKPITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +58,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D0E5479B3A02C30D4FBFE9F /* Pods-ApepsKPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApepsKPITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApepsKPITests/Pods-ApepsKPITests.debug.xcconfig"; sourceTree = "<group>"; };
+		27331D9CEA0809116561BFAD /* Pods-ApepsKPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApepsKPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApepsKPI/Pods-ApepsKPI.debug.xcconfig"; sourceTree = "<group>"; };
+		3885FFAB5BEE2AE9ABFE7C3E /* Pods_ApepsKPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApepsKPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C5F670771EFBD6B9D4E71B /* Pods_ApepsKPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApepsKPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		717F098841B4BC5E242E93BA /* Pods-ApepsKPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApepsKPITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApepsKPITests/Pods-ApepsKPITests.release.xcconfig"; sourceTree = "<group>"; };
 		782F6920200A3F0500F2509F /* ApepsKPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApepsKPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		782F6923200A3F0500F2509F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		782F6928200A3F0500F2509F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,6 +87,19 @@
 		782F6975200A925E00F2509F /* AuthorizationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationPresenter.swift; sourceTree = "<group>"; };
 		782F6977200A933C00F2509F /* AuthorizationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationRouter.swift; sourceTree = "<group>"; };
 		782F6979200A937400F2509F /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		782F697B200AA20800F2509F /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		782F6983200AA24700F2509F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		782F6984200AA24700F2509F /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		782F6985200AA24700F2509F /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		782F6986200AA24700F2509F /* RxAlamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxAlamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		782F6987200AA24700F2509F /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		782F6988200AA24700F2509F /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		782F698A200AA30600F2509F /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		782F698C200AA53C00F2509F /* APEPSKyivUaRESTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APEPSKyivUaRESTService.swift; sourceTree = "<group>"; };
+		782F698F200AB38000F2509F /* Moya_ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Moya_ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		782F6991200AB65C00F2509F /* APEPSKyivUaRESTApiImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APEPSKyivUaRESTApiImpl.swift; sourceTree = "<group>"; };
+		782F6993200ABAE000F2509F /* RestApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApi.swift; sourceTree = "<group>"; };
+		F611F74ADB7CC7B711380422 /* Pods-ApepsKPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApepsKPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApepsKPI/Pods-ApepsKPI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +107,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				782F698E200AB38000F2509F /* Moya_ObjectMapper.framework in Frameworks */,
+				782F6989200AA30600F2509F /* SwiftyJSON.framework in Frameworks */,
+				782F697D200AA24700F2509F /* Alamofire.framework in Frameworks */,
+				782F697E200AA24700F2509F /* Moya.framework in Frameworks */,
+				782F6980200AA24700F2509F /* RxAlamofire.framework in Frameworks */,
+				782F6981200AA24700F2509F /* RxCocoa.framework in Frameworks */,
+				782F6982200AA24700F2509F /* RxSwift.framework in Frameworks */,
+				83A5F6F7632B328B7BADFBFE /* Pods_ApepsKPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D49A0ED678B9D34EE59FDDA1 /* Pods_ApepsKPITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +136,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44835493B6400A1C9D8AC305 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				782F698F200AB38000F2509F /* Moya_ObjectMapper.framework */,
+				782F698A200AA30600F2509F /* SwiftyJSON.framework */,
+				782F6983200AA24700F2509F /* Alamofire.framework */,
+				782F6984200AA24700F2509F /* Moya.framework */,
+				782F6985200AA24700F2509F /* ObjectMapper.framework */,
+				782F6986200AA24700F2509F /* RxAlamofire.framework */,
+				782F6987200AA24700F2509F /* RxCocoa.framework */,
+				782F6988200AA24700F2509F /* RxSwift.framework */,
+				3885FFAB5BEE2AE9ABFE7C3E /* Pods_ApepsKPI.framework */,
+				47C5F670771EFBD6B9D4E71B /* Pods_ApepsKPITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		693F3BC6167C771FD0BC9B76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27331D9CEA0809116561BFAD /* Pods-ApepsKPI.debug.xcconfig */,
+				F611F74ADB7CC7B711380422 /* Pods-ApepsKPI.release.xcconfig */,
+				1D0E5479B3A02C30D4FBFE9F /* Pods-ApepsKPITests.debug.xcconfig */,
+				717F098841B4BC5E242E93BA /* Pods-ApepsKPITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		782F6917200A3F0500F2509F = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +171,8 @@
 				782F6937200A3F0500F2509F /* ApepsKPITests */,
 				782F6942200A3F0500F2509F /* ApepsKPIUITests */,
 				782F6921200A3F0500F2509F /* Products */,
+				693F3BC6167C771FD0BC9B76 /* Pods */,
+				44835493B6400A1C9D8AC305 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -206,6 +276,7 @@
 		782F695C200A7C8500F2509F /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				782F6990200AB50400F2509F /* API */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -294,6 +365,33 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		782F698B200AA4E200F2509F /* MoyaService */ = {
+			isa = PBXGroup;
+			children = (
+				782F698C200AA53C00F2509F /* APEPSKyivUaRESTService.swift */,
+			);
+			path = MoyaService;
+			sourceTree = "<group>";
+		};
+		782F6990200AB50400F2509F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				782F697B200AA20800F2509F /* APIService.swift */,
+				782F6993200ABAE000F2509F /* RestApi.swift */,
+				782F6995200ABBF100F2509F /* APEPS */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		782F6995200ABBF100F2509F /* APEPS */ = {
+			isa = PBXGroup;
+			children = (
+				782F6991200AB65C00F2509F /* APEPSKyivUaRESTApiImpl.swift */,
+				782F698B200AA4E200F2509F /* MoyaService */,
+			);
+			path = APEPS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -301,9 +399,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 782F6948200A3F0500F2509F /* Build configuration list for PBXNativeTarget "ApepsKPI" */;
 			buildPhases = (
+				5223130273EA3D71F1AC0D42 /* [CP] Check Pods Manifest.lock */,
 				782F691C200A3F0500F2509F /* Sources */,
 				782F691D200A3F0500F2509F /* Frameworks */,
 				782F691E200A3F0500F2509F /* Resources */,
+				845AAD2EF8F684F95BCBE043 /* [CP] Embed Pods Frameworks */,
+				4CBA98E846C219319DDB64F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -318,9 +419,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 782F694B200A3F0500F2509F /* Build configuration list for PBXNativeTarget "ApepsKPITests" */;
 			buildPhases = (
+				33F9972612816E2EE8EA2ED6 /* [CP] Check Pods Manifest.lock */,
 				782F6930200A3F0500F2509F /* Sources */,
 				782F6931200A3F0500F2509F /* Frameworks */,
 				782F6932200A3F0500F2509F /* Resources */,
+				F306359CC1E424ADA2D4E608 /* [CP] Embed Pods Frameworks */,
+				21A5F2C183E97E47ED022562 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -423,12 +527,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21A5F2C183E97E47ED022562 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApepsKPITests/Pods-ApepsKPITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33F9972612816E2EE8EA2ED6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApepsKPITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CBA98E846C219319DDB64F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApepsKPI/Pods-ApepsKPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5223130273EA3D71F1AC0D42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApepsKPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		845AAD2EF8F684F95BCBE043 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ApepsKPI/Pods-ApepsKPI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya-ObjectMapper/Moya_ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApepsKPI/Pods-ApepsKPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F306359CC1E424ADA2D4E608 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ApepsKPITests/Pods-ApepsKPITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApepsKPITests/Pods-ApepsKPITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		782F691C200A3F0500F2509F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				782F697A200A937400F2509F /* AuthorizationViewController.swift in Sources */,
+				782F698D200AA53C00F2509F /* APEPSKyivUaRESTService.swift in Sources */,
 				782F6976200A925E00F2509F /* AuthorizationPresenter.swift in Sources */,
 				782F6959200A7C4700F2509F /* StringExtension.swift in Sources */,
 				782F6964200A7D4700F2509F /* RootContract.swift in Sources */,
@@ -436,10 +666,13 @@
 				782F6962200A7D3000F2509F /* RootRouter.swift in Sources */,
 				782F6972200A90D700F2509F /* UserEntity.swift in Sources */,
 				782F6970200A904600F2509F /* UserCredentialsEntity.swift in Sources */,
+				782F697C200AA20800F2509F /* APIService.swift in Sources */,
 				782F6974200A91CF00F2509F /* AuthorizationInteractor.swift in Sources */,
+				782F6994200ABAE000F2509F /* RestApi.swift in Sources */,
 				782F696C200A8E8700F2509F /* AuthorizationContract.swift in Sources */,
 				782F6924200A3F0500F2509F /* AppDelegate.swift in Sources */,
 				782F696E200A8FA900F2509F /* UserRoles.swift in Sources */,
+				782F6992200AB65C00F2509F /* APEPSKyivUaRESTApiImpl.swift in Sources */,
 				782F6956200A7C0900F2509F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -604,6 +837,7 @@
 		};
 		782F6949200A3F0500F2509F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27331D9CEA0809116561BFAD /* Pods-ApepsKPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -619,6 +853,7 @@
 		};
 		782F694A200A3F0500F2509F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F611F74ADB7CC7B711380422 /* Pods-ApepsKPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -634,6 +869,7 @@
 		};
 		782F694C200A3F0500F2509F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D0E5479B3A02C30D4FBFE9F /* Pods-ApepsKPITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -651,6 +887,7 @@
 		};
 		782F694D200A3F0500F2509F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 717F098841B4BC5E242E93BA /* Pods-ApepsKPITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

@@ -7,6 +7,17 @@
 //
 
 import Foundation
-class UserEntity {
+import ObjectMapper
+class UserEntity: Mappable {
+    var name:String?
+    var surname:String?
     
+    required init?(map: Map) {
+        
+    }
+    
+    func mapping(map: Map) {
+        name      <- map["name"]
+        surname   <- map["surname"]
+    }
 }

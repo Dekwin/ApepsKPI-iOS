@@ -7,7 +7,23 @@
 //
 
 import Foundation
-class UserCredentialsEntity {
+import ObjectMapper
+class UserCredentialsEntity:Mappable {
     var email:String?
     var password:String?
+    
+    init(email:String, password:String) {
+        self.email = email
+        self.password = password
+    }
+    
+    required init?(map: Map) {
+        
+    }
+    
+    func mapping(map: Map) {
+        email      <- map["email"]
+        password <- map["password"]
+    }
+    
 }
