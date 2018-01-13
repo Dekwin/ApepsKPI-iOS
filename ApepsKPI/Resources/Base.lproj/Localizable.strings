@@ -1,0 +1,30 @@
+/*
+ * Loco ios export: iOS Localizable.strings
+ * Project: Apeps app
+ * Release: Working copy
+ * Locale: en-GB, English (UK)
+ * Exported by: dekstersniper
+ * Exported at: Sat, 13 Jan 2018 22:47:24 +0000
+ */
+
+/* loco:5a5a8ac4c430fe895a8b4567
+ * кнопка студент на экране авторизации */
+"authorization_btn_student" = "Student";
+
+/* loco:5a5a8b4fc430fe875a8b4567
+ * кнопка преподаватель на экране авторизации */
+"authorization_btn_teacher" = "Teacher";
+
+/* loco:5a5a8b96c430feb75a8b4567
+ * Login */
+"authorization_btn_login" = "LOG IN";
+
+/* loco:5a5a8bedc430fe7e5a8b4568
+ * pass */
+"authorization_btn_forgot_pass" = "Forgot your password?";
+
+/* loco:5a5a8c36c430fe615a8b4568
+ * apeps */
+"authorization_lbl_apeps" = "APEPS";
+
+

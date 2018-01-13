@@ -1,0 +1,39 @@
+
+/* Class = "UIButton"; normalTitle = "Student"; ObjectID = "1B8-jz-BFY"; */
+"1B8-jz-BFY.normalTitle" = "Student";
+
+/* Class = "UIButton"; normalTitle = "Forgot your password?"; ObjectID = "AlN-6m-eXT"; */
+"AlN-6m-eXT.normalTitle" = "Forgot your password?";
+
+/* Class = "UIButton"; normalTitle = "Teacher"; ObjectID = "Ava-Un-9vv"; */
+"Ava-Un-9vv.normalTitle" = "Teacher";
+
+/* Class = "UILabel"; text = "use credentials"; ObjectID = "DJz-U9-TfD"; */
+"DJz-U9-TfD.text" = "use credentials";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "Ebe-Ax-zGA"; */
+"Ebe-Ax-zGA.title" = "Profile";
+
+/* Class = "UITabBarItem"; title = "Labs"; ObjectID = "Mkc-NQ-ZEo"; */
+"Mkc-NQ-ZEo.title" = "Labs";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "UJJ-O0-PhL"; */
+"UJJ-O0-PhL.title" = "Profile";
+
+/* Class = "UINavigationItem"; title = "gg"; ObjectID = "UY2-6v-bgj"; */
+"UY2-6v-bgj.title" = "gg";
+
+/* Class = "UISegmentedControl"; bLu-8Z-kHz.segmentTitles[0] = "Science direction"; ObjectID = "bLu-8Z-kHz"; */
+"bLu-8Z-kHz.segmentTitles[0]" = "Science direction";
+
+/* Class = "UISegmentedControl"; bLu-8Z-kHz.segmentTitles[1] = "Teachers"; ObjectID = "bLu-8Z-kHz"; */
+"bLu-8Z-kHz.segmentTitles[1]" = "Teachers";
+
+/* Class = "UITabBarItem"; title = "Labs"; ObjectID = "jpJ-AA-T3v"; */
+"jpJ-AA-T3v.title" = "Labs";
+
+/* Class = "UIButton"; normalTitle = "LOG IN"; ObjectID = "xqA-dX-WZM"; */
+"xqA-dX-WZM.normalTitle" = "LOG IN";
+
+/* Class = "UILabel"; text = "APEPS"; ObjectID = "yKV-KT-jKf"; */
+"yKV-KT-jKf.text" = "APEPS";
