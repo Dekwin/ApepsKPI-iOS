@@ -24,7 +24,7 @@ class AuthorizationRouter: AuthorizationWireframe {
         let presenter = AuthorizationPresenter()
         let interactor = AuthorizationInteractor()
         let router = AuthorizationRouter()
-        let navigation = UINavigationController(rootViewController: view!)
+        let navigation = view!//UINavigationController(rootViewController: view!)
         
         view?.presenter = presenter
         

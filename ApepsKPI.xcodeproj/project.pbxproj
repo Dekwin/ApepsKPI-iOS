@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78000E32200BC3DB00284859 /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78000E33200BC3DB00284859 /* IQKeyboardManagerSwift.framework */; };
 		782F6924200A3F0500F2509F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F6923200A3F0500F2509F /* AppDelegate.swift */; };
 		782F6929200A3F0500F2509F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782F6927200A3F0500F2509F /* Main.storyboard */; };
 		782F692B200A3F0500F2509F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782F692A200A3F0500F2509F /* Assets.xcassets */; };
@@ -65,6 +66,7 @@
 		3885FFAB5BEE2AE9ABFE7C3E /* Pods_ApepsKPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApepsKPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47C5F670771EFBD6B9D4E71B /* Pods_ApepsKPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApepsKPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		717F098841B4BC5E242E93BA /* Pods-ApepsKPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApepsKPITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApepsKPITests/Pods-ApepsKPITests.release.xcconfig"; sourceTree = "<group>"; };
+		78000E33200BC3DB00284859 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		782F6920200A3F0500F2509F /* ApepsKPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApepsKPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		782F6923200A3F0500F2509F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		782F6928200A3F0500F2509F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78000E32200BC3DB00284859 /* IQKeyboardManagerSwift.framework in Frameworks */,
 				782F698E200AB38000F2509F /* Moya_ObjectMapper.framework in Frameworks */,
 				782F6989200AA30600F2509F /* SwiftyJSON.framework in Frameworks */,
 				782F697D200AA24700F2509F /* Alamofire.framework in Frameworks */,
@@ -150,6 +153,7 @@
 		44835493B6400A1C9D8AC305 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				78000E33200BC3DB00284859 /* IQKeyboardManagerSwift.framework */,
 				782F698F200AB38000F2509F /* Moya_ObjectMapper.framework */,
 				782F698A200AA30600F2509F /* SwiftyJSON.framework */,
 				782F6983200AA24700F2509F /* Alamofire.framework */,
@@ -617,6 +621,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ApepsKPI/Pods-ApepsKPI-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya-ObjectMapper/Moya_ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
@@ -629,6 +634,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",

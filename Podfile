@@ -10,6 +10,7 @@ target 'ApepsKPI' do
   #pod 'ObjectMapper', '~> 3.1'
   pod 'Moya-ObjectMapper/RxSwift'
   pod 'SwiftyJSON'
+  pod 'IQKeyboardManagerSwift'
 end
 
 target 'ApepsKPITests' do

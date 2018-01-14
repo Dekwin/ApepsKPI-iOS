@@ -4,7 +4,7 @@
  * Release: Working copy
  * Locale: en-GB, English (UK)
  * Exported by: dekstersniper
- * Exported at: Sat, 13 Jan 2018 22:47:24 +0000
+ * Exported at: Sun, 14 Jan 2018 14:58:45 +0000
  */
 
 /* loco:5a5a8ac4c430fe895a8b4567
@@ -25,6 +25,15 @@
 
 /* loco:5a5a8c36c430fe615a8b4568
  * apeps */
-"authorization_lbl_apeps" = "APEPS";
+"authorization_lbl_apeps" = "APEPS is the best department in the KPI. \nTry it ❤️🎓";
 
+/* loco:5a5b6de1c430fed2028b4567
+ * email */
+"authorization_placeholder_email" = "E-mail";
+
+/* loco:5a5b6e12c430fe8c028b4567 */
+"authorization_placeholder_password" = "Password";
+
+/* loco:5a5b6ebdc430fefd028b4568 */
+"authorization_tip" = "choose the role and sign in";
 
