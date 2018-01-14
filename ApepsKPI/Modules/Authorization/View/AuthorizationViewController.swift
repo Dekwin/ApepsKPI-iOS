@@ -21,15 +21,22 @@ class AuthorizationViewController: UIViewController, AuthorizationView {
     @IBAction func studentButtonTouched(_ sender: UIButton) {
         teacherSwitchButton.isSelected = false
         sender.isSelected = true
+        presenter.didSet(role: .student)
+    }
+    
+    @IBAction func loginButtonTouched(_ sender: UIButton) {
+        presenter.didClickLoginButton(withCredentials: UserCredentialsEntity(email: emailTextField.text, password: passwordTextField.text))
     }
     
     @IBAction func teacherButtonTouched(_ sender: UIButton) {
         studentSwitchButton.isSelected = false
         sender.isSelected = true
+        presenter.didSet(role: .teacher)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        presenter.viewDidLoad()
         setViews()
         // Do any additional setup after loading the view.
     }

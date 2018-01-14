@@ -20,7 +20,7 @@ protocol AuthorizationPresentation: class {
     var router: AuthorizationWireframe! { get set }
     
     func viewDidLoad()
-    func didClickLoginButton()
+    func didClickLoginButton(withCredentials credentials:UserCredentialsEntity)
     func didSet(role:UserRole)
 }
 

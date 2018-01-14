@@ -19,7 +19,7 @@ class AuthorizationPresenter: AuthorizationPresentation {
         
     }
     
-    func didClickLoginButton() {
+    func didClickLoginButton(withCredentials credentials:UserCredentialsEntity) {
         
     }
     

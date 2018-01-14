@@ -284,6 +284,9 @@ Try it  </string>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="lzText" value="authorization_btn_login"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="loginButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hgq-46-ZS4"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
