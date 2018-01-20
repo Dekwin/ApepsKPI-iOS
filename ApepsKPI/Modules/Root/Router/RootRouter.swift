@@ -12,6 +12,6 @@ class RootRouter: RootWireframe {
 
     func presentAuthorizationScreen(in window: UIWindow) {
         window.makeKeyAndVisible()
-        window.rootViewController = AuthorizationRouter.assembleModule()
+        window.rootViewController = /*MainTabBarRouter.assembleModule(forRole: .student)*/ AuthorizationRouter.assembleModule()
     }
 }

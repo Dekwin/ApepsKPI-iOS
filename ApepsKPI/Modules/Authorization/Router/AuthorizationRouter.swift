@@ -12,7 +12,7 @@ class AuthorizationRouter: AuthorizationWireframe {
     var viewController: UIViewController?
     
     func presentMain(forUser user: UserEntity) {
-        
+        viewController?.present(MainTabBarRouter.assembleModule(forRole: user.role!), animated: false, completion: nil) 
     }
     
     func presentAlertSignInFailed(error: String) {

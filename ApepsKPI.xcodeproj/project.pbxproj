@@ -39,6 +39,12 @@
 		782F6994200ABAE000F2509F /* RestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F6993200ABAE000F2509F /* RestApi.swift */; };
 		782F6997200ABFE700F2509F /* LocalizationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F6996200ABFE700F2509F /* LocalizationExtensions.swift */; };
 		782F699E200AC10400F2509F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 782F69A0200AC10400F2509F /* Localizable.strings */; };
+		784A024F2013428D0031817C /* MainTabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A024E2013428D0031817C /* MainTabBarRouter.swift */; };
+		784A025720134C620031817C /* UserProfileContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A025620134C620031817C /* UserProfileContract.swift */; };
+		784A025920134CEF0031817C /* UserProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A025820134CEF0031817C /* UserProfileRouter.swift */; };
+		784A025B20134F510031817C /* UserProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A025A20134F510031817C /* UserProfilePresenter.swift */; };
+		784A025D20134F660031817C /* UserProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A025C20134F660031817C /* UserProfileInteractor.swift */; };
+		784A025F20134FBF0031817C /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A025E20134FBF0031817C /* UserProfileViewController.swift */; };
 		83A5F6F7632B328B7BADFBFE /* Pods_ApepsKPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3885FFAB5BEE2AE9ABFE7C3E /* Pods_ApepsKPI.framework */; };
 		D49A0ED678B9D34EE59FDDA1 /* Pods_ApepsKPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C5F670771EFBD6B9D4E71B /* Pods_ApepsKPITests.framework */; };
 /* End PBXBuildFile section */
@@ -112,6 +118,12 @@
 		782F69A1200AC10800F2509F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		782F69A2200AC10A00F2509F /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		782F69A3200AC11500F2509F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		784A024E2013428D0031817C /* MainTabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarRouter.swift; sourceTree = "<group>"; };
+		784A025620134C620031817C /* UserProfileContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileContract.swift; sourceTree = "<group>"; };
+		784A025820134CEF0031817C /* UserProfileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileRouter.swift; sourceTree = "<group>"; };
+		784A025A20134F510031817C /* UserProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfilePresenter.swift; sourceTree = "<group>"; };
+		784A025C20134F660031817C /* UserProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileInteractor.swift; sourceTree = "<group>"; };
+		784A025E20134FBF0031817C /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		F611F74ADB7CC7B711380422 /* Pods-ApepsKPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApepsKPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApepsKPI/Pods-ApepsKPI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -284,6 +296,8 @@
 		782F695B200A7C7900F2509F /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				784A025020134B4C0031817C /* UserProfile */,
+				784A024B20133F360031817C /* MainTabBar */,
 				782F6965200A8DA500F2509F /* Authorization */,
 				782F695E200A7CD200F2509F /* Root */,
 			);
@@ -407,6 +421,82 @@
 				782F698B200AA4E200F2509F /* MoyaService */,
 			);
 			path = APEPS;
+			sourceTree = "<group>";
+		};
+		784A024B20133F360031817C /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				784A024D201342780031817C /* Contract */,
+				784A024C201342670031817C /* Router */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		784A024C201342670031817C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		784A024D201342780031817C /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				784A024E2013428D0031817C /* MainTabBarRouter.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		784A025020134B4C0031817C /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				784A025520134B830031817C /* Contract */,
+				784A025420134B7A0031817C /* Interactor */,
+				784A025320134B730031817C /* Presenter */,
+				784A025220134B6A0031817C /* View */,
+				784A025120134B5E0031817C /* Router */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		784A025120134B5E0031817C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				784A025820134CEF0031817C /* UserProfileRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		784A025220134B6A0031817C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				784A025E20134FBF0031817C /* UserProfileViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		784A025320134B730031817C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				784A025A20134F510031817C /* UserProfilePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		784A025420134B7A0031817C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				784A025C20134F660031817C /* UserProfileInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		784A025520134B830031817C /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				784A025620134C620031817C /* UserProfileContract.swift */,
+			);
+			path = Contract;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -679,19 +769,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				782F697A200A937400F2509F /* AuthorizationViewController.swift in Sources */,
+				784A025F20134FBF0031817C /* UserProfileViewController.swift in Sources */,
 				782F698D200AA53C00F2509F /* APEPSKyivUaRESTService.swift in Sources */,
 				782F6976200A925E00F2509F /* AuthorizationPresenter.swift in Sources */,
 				782F6959200A7C4700F2509F /* StringExtension.swift in Sources */,
 				782F6964200A7D4700F2509F /* RootContract.swift in Sources */,
 				782F6978200A933C00F2509F /* AuthorizationRouter.swift in Sources */,
+				784A025720134C620031817C /* UserProfileContract.swift in Sources */,
 				782F6962200A7D3000F2509F /* RootRouter.swift in Sources */,
 				782F6972200A90D700F2509F /* UserEntity.swift in Sources */,
 				782F6970200A904600F2509F /* UserCredentialsEntity.swift in Sources */,
+				784A025920134CEF0031817C /* UserProfileRouter.swift in Sources */,
+				784A025B20134F510031817C /* UserProfilePresenter.swift in Sources */,
 				782F697C200AA20800F2509F /* APIService.swift in Sources */,
 				782F6974200A91CF00F2509F /* AuthorizationInteractor.swift in Sources */,
 				782F6994200ABAE000F2509F /* RestApi.swift in Sources */,
+				784A025D20134F660031817C /* UserProfileInteractor.swift in Sources */,
 				782F6997200ABFE700F2509F /* LocalizationExtensions.swift in Sources */,
 				782F696C200A8E8700F2509F /* AuthorizationContract.swift in Sources */,
+				784A024F2013428D0031817C /* MainTabBarRouter.swift in Sources */,
 				782F6924200A3F0500F2509F /* AppDelegate.swift in Sources */,
 				782F696E200A8FA900F2509F /* UserRoles.swift in Sources */,
 				782F6992200AB65C00F2509F /* APEPSKyivUaRESTApiImpl.swift in Sources */,

@@ -11,6 +11,7 @@ import ObjectMapper
 class UserEntity: Mappable {
     var name:String?
     var surname:String?
+    var role:UserRole?
     
     required init?(map: Map) {
         
